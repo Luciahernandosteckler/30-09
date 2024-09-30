@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./"
+  },
+  "include": [
+    "Auto.ts",
+    "Camion.ts",
+    "Moto.ts",
+    "RegistroAutomotor.ts",
+    "Vehiculo.ts",
+    "fisico.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
